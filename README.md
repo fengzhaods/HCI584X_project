@@ -8,7 +8,8 @@ Below is a brief introduction of files in the folder
 4) ames_core.csv: This is the dataset with only important features.
 5) user.csv: To predic the sale price of a house in Ames, the user needs to enter the required information in each column.
 6) ReadMe.md: This is the user's guide, the file you're reading.
-7) Developer's documentation.md: This file documents my major considerations while working on this project
+7) data_description.txt: Users need to refer to this document when entering information.
+8) Developer's documentation.md: This file documents my major considerations while working on this project.
 
 # Requirements
 Below is the version number of Python and main packages used in this project. I expect the notebook should still work with newer versions.  
