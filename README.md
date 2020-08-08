@@ -36,7 +36,7 @@ The predicting model is very easy to use.
 6) Scroll down the notebook and find out the predicting price for the house of interest.
 
 # Known issues
-List any known bugs and limitations
+No known issues for now, but I will really aprreciate it if you could let me know if issues are found out.
 
 # Acknowledgments
 I would like to thank Dr. Chris Harding for his support and guidance while I was conducting this course project.
