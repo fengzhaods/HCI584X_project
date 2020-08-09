@@ -1,15 +1,16 @@
 # Overview of the project
 This project applys supervised machine learning (SML) algorithms to predict the final price of each residential home in Ames, Iowa, using 20 explanatory variables describing most aspects of these homes. The end-user of this project could be someone who plans to buy a house in Ames or real estate agents. Jupyter notebooks were used to predict the sale price of houses in Ames after entering the required information. I built an SML model using the existing data (i.e., the known sale price of Ames houses with different aspects) and use this model to predict the sale price of a specific house after users enter the required information. The dataset was originally prepared by Dean De Cock and was slightly revised by Kaggle https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data 
 For now, the project is in just a Jupyter notebook. But in the future, I might make it more user-friendly.
-Below is a brief introduction of files in the folder
+Below is a brief introduction of files in the folder. Files that users are involved are bolded.
 1) training.ipynb: The Jupyter notebook that I used to explore the data and build the SML model.
-2) predicting.ipynb: Based on the knowledge gained from exploring and building the model, this simplified Jupyter is for end users to make predictions.
+2) **predicting.ipynb**: Based on the knowledge gained from exploring and building the model, this simplified Jupyter is for end users to make predictions.
 3) ames.csv: This is the original dataset with all 79 features.
 4) ames_core.csv: This is the dataset with only important features.
-5) user.csv: To predic the sale price of a house in Ames, the user needs to enter the required information in each column.
-6) ReadMe.md: This is the user's guide, the file you're reading.
-7) data_description.txt: Users need to refer to this document when entering information.
-8) Developer's documentation.md: This file documents my major considerations while working on this project.
+5) label.csv: This the documented sale price for Ames houses.
+6) **user.csv**: To predic the sale price of a house in Ames, the user needs to enter the required information in each column.
+7) **ReadMe.md**: This is the user's guide, the file you're reading.
+8) **data_description.txt**: Users need to refer to this document when entering information.
+9) Developer's documentation.md: This file documents my major considerations while working on this project.
 
 # Requirements
 Below is the version number of Python and main packages used in this project. I expect the notebook should still work with newer versions.  
