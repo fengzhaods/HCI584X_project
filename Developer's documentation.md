@@ -19,5 +19,13 @@ The dataset has 79 features but several of features have an extremely high perce
 ## Separating the notebook I used to explore the data (and build the ML model) and the notebook for end users to make predictions
 At first, I thought only one Jupyter notebook would be enough but I soon realzied that end users might not need to see the whole thing about data exploration, data cleaning, feature selection, and final model building. What users expect is simply a workable predicting model that can make relatively accurate predictions. Too much code might make users feel overwhelmed. 
 
-## Future work
+## Known issue:
+The main issue is still about user experiences. Basically, users only need to do four things: 1) install jupyter notebook, python, and python packages, 2) download files in my github folder and put them into the right place in their own folder, 3) enter information about the house of interest, and 4) run the predicting model in the Jupyter notebook.
+I have not recruited any potential users to do some testing, but I suspect that step 4 would be the easiest part and users might have issues in all the other three parts. If possible, it would be better if users can get detailed guidance in each step. Screenshots could be very helpful.
 
+## Future work
+Ideally, the end product of this project would be an interactive web/app application where users enter information about a house and the web/app makes predictions and shows the results to the user. I hope I will be able to transform my current project into a full blown web/app application in the near future.
+
+## Ongoing deployment
+The current project uses historical data about the sold prices of houses in Ames. It does not involves infomation of any newly sold houses. Hence, it is not an ongoing project. 
+However, it has the potential to be ongoing if the developer can continuously add information of newly sold house in the databas.
