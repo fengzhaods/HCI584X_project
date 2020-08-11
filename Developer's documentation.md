@@ -19,6 +19,9 @@ The dataset has 79 features but several of features have an extremely high perce
 ## Separating the notebook I used to explore the data (and build the ML model) and the notebook for end users to make predictions
 At first, I thought only one Jupyter notebook would be enough but I soon realzied that end users might not need to see the whole thing about data exploration, data cleaning, feature selection, and final model building. What users expect is simply a workable predicting model that can make relatively accurate predictions. Too much code might make users feel overwhelmed. 
 
+## Thoughts about coding
+In this project, I did not use very fancy coding concepts. Thanks to the powerful pacakges (e.g., pandas and scikit-learn) in data science, most functions I need to clean the data and conduct the machinie learning models are ready to use. However, I did learn from other users on how to identify variables with missing data and on how to visualize them. Besides, I also learned how to show correlation matrix in a fancy way. Finally, I did give some thoughts on how to deal with some variables with missing values. These efforts are beyound the coding itself and require a deep understanding of the data itself.
+
 ## Known issue:
 The main issue is still about user experiences. Basically, users only need to do four things: 1) install jupyter notebook, python, and python packages, 2) download files in my github folder and put them into the right place in their own folder, 3) enter information about the house of interest, and 4) run the predicting model in the Jupyter notebook.
 I have not recruited any potential users to do some testing, but I suspect that step 4 would be the easiest part and users might have issues in all the other three parts. If possible, it would be better if users can get detailed guidance in each step. Screenshots could be very helpful.
